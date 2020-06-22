@@ -161,7 +161,7 @@ cd ~/PentestStuff
 echo "[$datetime] - done"
 
 echo "[$datetime] - installing Sherlock"
-git clone git clone https://github.com/sherlock-project/sherlock.git
+git clone https://github.com/sherlock-project/sherlock.git
 cd sherlock && pip3 install -r requirements.txt
 cd ~/PentestStuff
 echo "[$datetime] - done"
