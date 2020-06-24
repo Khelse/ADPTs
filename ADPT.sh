@@ -92,8 +92,28 @@ git clone https://github.com/hausec/ADAPE-Script.git
 cd ~/PentestStuff
 echo "[$datetime] - done"
 
+echo "[$datetime] - installing JAWS"
+git clone https://github.com/411Hall/JAWS.git
+cd ~/PentestStuff
+echo "[$datetime] - done"
+
+echo "[$datetime] - installing Windows Exploit Suggester - Next Generation"
+git https://github.com/bitsadmin/wesng.git
+cd ~/PentestStuff
+echo "[$datetime] - done"
+
+echo "[$datetime] - installing Windows-Exploit-Suggester"
+git https://github.com/bitsadmin/wesng.git
+cd ~/PentestStuff
+echo "[$datetime] - done"
+
+echo "[$datetime] - installing BeRoot"
+git clone https://github.com/AlessandroZ/BeRoot.git
+cd ~/PentestStuff
+echo "[$datetime] - done"
+
 echo "[$datetime] - installing Wafw00f"
-git clone git clone https://github.com/enablesecurity/wafw00f.git
+git clone https://github.com/enablesecurity/wafw00f.git
 cd wafw00f/
 python setup.py install
 cd ~/PentestStuff
@@ -132,6 +152,9 @@ echo "[$datetime] - installing LinEnum"
 git clone https://github.com/rebootuser/LinEnum.git
 cd ~/PentestStuff
 echo "[$datetime] - done"
+
+echo "[$datetime] - installing Linux-Exploit-Suggester"
+git clone https://github.com/jondonas/linux-exploit-suggester-2.git
 
 echo "[$datetime] - installing Privilege Escalation Awesome Scripts SUITE"
 git clone https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite.git
