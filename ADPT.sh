@@ -98,12 +98,12 @@ cd ~/PentestStuff
 echo "[$datetime] - done"
 
 echo "[$datetime] - installing Windows Exploit Suggester - Next Generation"
-git https://github.com/bitsadmin/wesng.git
+git clone https://github.com/bitsadmin/wesng.git
 cd ~/PentestStuff
 echo "[$datetime] - done"
 
 echo "[$datetime] - installing Windows-Exploit-Suggester"
-git https://github.com/bitsadmin/wesng.git
+git clone https://github.com/bitsadmin/wesng.git
 cd ~/PentestStuff
 echo "[$datetime] - done"
 
@@ -155,6 +155,8 @@ echo "[$datetime] - done"
 
 echo "[$datetime] - installing Linux-Exploit-Suggester"
 git clone https://github.com/jondonas/linux-exploit-suggester-2.git
+cd ~/PentestStuff
+echo "[$datetime] - done"
 
 echo "[$datetime] - installing Privilege Escalation Awesome Scripts SUITE"
 git clone https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite.git
