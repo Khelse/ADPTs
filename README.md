@@ -41,6 +41,11 @@
 | waybackurls |  https://github.com/tomnomnom/waybackurls |
 | crtndstry | https://github.com/nahamsec/crtndstry |
 | Seclists | https://github.com/danielmiessler/SecLists |
+| BeRoot Project | https://github.com/AlessandroZ/BeRoot |
+| Windows-Exploit-Suggester | https://github.com/AonCyberLabs/Windows-Exploit-Suggester |
+| Windows Exploit Suggester - Next Generation (WES-NG) | https://github.com/bitsadmin/wesng |
+| Linux-Exploit-Suggester-2 | https://github.com/jondonas/linux-exploit-suggester-2 |
+| JAWS - Just Another Windows (Enum) Script | https://github.com/411Hall/JAWS |
 
 ### Installation
 Just follow by commands below
