@@ -139,7 +139,7 @@ echo "[$datetime] - done"
 echo "[$datetime] - installing CrackMapExec"
 git clone --recursive https://github.com/byt3bl33d3r/CrackMapExec
 cd CrackMapExec
-python3 setup.py install
+sudo python3 setup.py install
 cd ~/tools
 echo "[$datetime] - done"
 
@@ -187,14 +187,14 @@ echo "[$datetime] - done"
 
 echo "[$datetime] - installing Sherlock"
 git clone https://github.com/sherlock-project/sherlock.git
-cd sherlock && pip3 install -r requirements.txt
+cd sherlock && sudo pip3 install -r requirements.txt
 cd ~/tools
 echo "[$datetime] - done"
 
 echo "[$datetime] - installing Sublist3r"
 git clone https://github.com/aboul3la/Sublist3r.git
 cd Sublist3r*
-pip install -r requirements.txt
+sudo pip install -r requirements.txt
 cd ~/tools
 echo "[$datetime] - done"
 
@@ -208,7 +208,7 @@ echo "[$datetime] - done"
 echo "[$datetime] - installing wpscan"
 git clone https://github.com/wpscanteam/wpscan.git
 cd wpscan*
-sudo gem install bundler && bundle install --without test
+sudo gem install bundler && sudo bundle install --without test
 cd ~/tools
 echo "[$datetime] - done"
 
@@ -258,7 +258,7 @@ echo "[$datetime] - done"
 echo "[$datetime] - installing asnlookup"
 git clone https://github.com/yassineaboukir/asnlookup.git
 cd ~/tools/asnlookup
-pip install -r requirements.txt
+sudo pip install -r requirements.txt
 cd ~/tools
 echo "[$datetime] - done"
 
