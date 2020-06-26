@@ -53,8 +53,8 @@ done
 fi
 
 
-#create a tools folder in $HOME/PentestStuff/
-mkdir ~/PentestStuff && cd ~/PentestStuff
+#create a tools folder in ~/
+mkdir ~/tools && cd ~/tools
 
 #install aquatone
 echo "[$datetime] - Installing Aquatone"
@@ -79,88 +79,88 @@ echo "[$datetime] - installing JSParser"
 git clone https://github.com/nahamsec/JSParser.git
 cd JSParser*
 sudo python setup.py install
-cd ~/PentestStuff
+cd ~/tools
 echo "[$datetime] - done"
 
 echo "[$datetime] - installing PowerSploit"
 git clone https://github.com/PowerShellMafia/PowerSploit.git
-cd ~/PentestStuff
+cd ~/tools
 echo "[$datetime] - done"
 
 echo "[$datetime] - installing ADAPE"
 git clone https://github.com/hausec/ADAPE-Script.git
-cd ~/PentestStuff
+cd ~/tools
 echo "[$datetime] - done"
 
 echo "[$datetime] - installing JAWS"
 git clone https://github.com/411Hall/JAWS.git
-cd ~/PentestStuff
+cd ~/tools
 echo "[$datetime] - done"
 
 echo "[$datetime] - installing Windows Exploit Suggester - Next Generation"
 git clone https://github.com/bitsadmin/wesng.git
-cd ~/PentestStuff
+cd ~/tools
 echo "[$datetime] - done"
 
 echo "[$datetime] - installing Windows-Exploit-Suggester"
 git clone https://github.com/bitsadmin/wesng.git
-cd ~/PentestStuff
+cd ~/tools
 echo "[$datetime] - done"
 
 echo "[$datetime] - installing BeRoot"
 git clone https://github.com/AlessandroZ/BeRoot.git
-cd ~/PentestStuff
+cd ~/tools
 echo "[$datetime] - done"
 
 echo "[$datetime] - installing Wafw00f"
 git clone https://github.com/enablesecurity/wafw00f.git
 cd wafw00f/
 python setup.py install
-cd ~/PentestStuff
+cd ~/tools
 echo "[$datetime] - done"
 
 echo "[$datetime] - installing Linux Smart Enumiration Tool"
 wget "https://github.com/diego-treitos/linux-smart-enumeration/raw/master/lse.sh" -O lse.sh
-cd ~/PentestStuff
+cd ~/tools
 echo "[$datetime] - done"
 
 echo "[$datetime] - installing FuzzDB"
 git clone https://github.com/fuzzdb-project/fuzzdb.git --depth 1
 cd fuzzdb*
 git pull
-cd ~/PentestStuff
+cd ~/tools
 echo "[$datetime] - done"
 
 echo "[$datetime] - installing Impacket Scripts"
 git clone https://github.com/SecureAuthCorp/impacket.git
-cd ~/PentestStuff
+cd ~/tools
 echo "[$datetime] - done"
 
 echo "[$datetime] - installing CrackMapExec"
 git clone --recursive https://github.com/byt3bl33d3r/CrackMapExec
 cd CrackMapExec
 python3 setup.py install
-cd ~/PentestStuff
+cd ~/tools
 echo "[$datetime] - done"
 
 echo "[$datetime] - installing Lynis"
 git clone https://github.com/CISOfy/lynis
-cd ~/PentestStuff
+cd ~/tools
 echo "[$datetime] - done"
 
 echo "[$datetime] - installing LinEnum"
 git clone https://github.com/rebootuser/LinEnum.git
-cd ~/PentestStuff
+cd ~/tools
 echo "[$datetime] - done"
 
 echo "[$datetime] - installing Linux-Exploit-Suggester"
 git clone https://github.com/jondonas/linux-exploit-suggester-2.git
-cd ~/PentestStuff
+cd ~/tools
 echo "[$datetime] - done"
 
 echo "[$datetime] - installing Privilege Escalation Awesome Scripts SUITE"
 git clone https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite.git
-cd ~/PentestStuff
+cd ~/tools
 echo "[$datetime] - done"
 
 echo "[$datetime] - installing PSPY"
@@ -169,12 +169,12 @@ wget https://github.com/DominicBreuker/pspy/releases/download/v1.2.0/pspy32
 wget https://github.com/DominicBreuker/pspy/releases/download/v1.2.0/pspy64
 wget https://github.com/DominicBreuker/pspy/releases/download/v1.2.0/pspy32s
 wget https://github.com/DominicBreuker/pspy/releases/download/v1.2.0/pspy64s
-cd ~/PentestStuff
+cd ~/tools
 echo "[$datetime] - done"
 
 echo "[$datetime] - installing Nishang Scripts"
 git clone https://github.com/samratashok/nishang.git
-cd ~/PentestStuff
+cd ~/tools
 echo "[$datetime] - done"
 
 echo "[$datetime] - installing Mimikatz"
@@ -182,26 +182,26 @@ mkdir Mimikatz && cd Mimikatz
 wget https://github.com/gentilkiwi/mimikatz/releases/download/2.2.0-20200519/mimikatz_trunk.zip
 unzip mimikatz_trunk.zip
 rm *.zip
-cd ~/PentestStuff
+cd ~/tools
 echo "[$datetime] - done"
 
 echo "[$datetime] - installing Sherlock"
 git clone https://github.com/sherlock-project/sherlock.git
 cd sherlock && pip3 install -r requirements.txt
-cd ~/PentestStuff
+cd ~/tools
 echo "[$datetime] - done"
 
 echo "[$datetime] - installing Sublist3r"
 git clone https://github.com/aboul3la/Sublist3r.git
 cd Sublist3r*
 pip install -r requirements.txt
-cd ~/PentestStuff
+cd ~/tools
 echo "[$datetime] - done"
 
 
 echo "[$datetime] - installing teh_s3_bucketeers"
 git clone https://github.com/tomdev/teh_s3_bucketeers.git
-cd ~/PentestStuff
+cd ~/tools
 echo "[$datetime] - done"
 
 
@@ -209,39 +209,39 @@ echo "[$datetime] - installing wpscan"
 git clone https://github.com/wpscanteam/wpscan.git
 cd wpscan*
 sudo gem install bundler && bundle install --without test
-cd ~/PentestStuff
+cd ~/tools
 echo "[$datetime] - done"
 
 echo "installing dirsearch"
 git clone https://github.com/maurosoria/dirsearch.git
-cd ~/PentestStuff
+cd ~/tools
 echo "[$datetime] - done"
 
 
 echo "installing lazys3"
 git clone https://github.com/nahamsec/lazys3.git
-cd ~/PentestStuff
+cd ~/tools
 echo "[$datetime] - done"
 
 echo "installing virtual host discovery"
 git clone https://github.com/jobertabma/virtual-host-discovery.git
-cd ~/PentestStuff
+cd ~/tools
 echo "[$datetime] - done"
 
 
 echo "[$datetime] - installing sqlmap"
 git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev
-cd ~/PentestStuff
+cd ~/tools
 echo "[$datetime] - done"
 
 echo "[$datetime] - installing knock.py"
 git clone https://github.com/guelfoweb/knock.git
-cd ~/PentestStuff
+cd ~/tools
 echo "[$datetime] - done"
 
 echo "[$datetime] - installing lazyrecon"
 git clone https://github.com/nahamsec/lazyrecon.git
-cd ~/PentestStuff
+cd ~/tools
 echo "[$datetime] - done"
 
 echo "[$datetime] - installing nmap"
@@ -250,16 +250,16 @@ echo "[$datetime] - done"
 
 echo "[$datetime] - installing massdns"
 git clone https://github.com/blechschmidt/massdns.git
-cd ~/PentestStuff/massdns
+cd ~/tools/massdns
 make
-cd ~/PentestStuff
+cd ~/tools
 echo "[$datetime] - done"
 
 echo "[$datetime] - installing asnlookup"
 git clone https://github.com/yassineaboukir/asnlookup.git
-cd ~/PentestStuff/asnlookup
+cd ~/tools/asnlookup
 pip install -r requirements.txt
-cd ~/PentestStuff
+cd ~/tools
 echo "[$datetime] - done"
 
 echo "[$datetime] - installing httprobe"
@@ -279,11 +279,11 @@ git clone https://github.com/nahamsec/crtndstry.git
 echo "[$datetime] - done"
 
 echo "[$datetime] - downloading Seclists"
-cd ~/PentestStuff
+cd ~/tools
 git clone https://github.com/danielmiessler/SecLists.git
-cd ~/PentestStuff/SecLists/Discovery/DNS/
+cd ~/tools/SecLists/Discovery/DNS/
 cat dns-Jhaddix.txt | head -n -14 > clean-jhaddix-dns.txt
-cd ~/PentestStuff
+cd ~/tools
 echo "[$datetime] - done"
 
 echo -e "\nDone! All tools are set up in $HOME/PentestStuff"
