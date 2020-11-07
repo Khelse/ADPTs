@@ -87,6 +87,11 @@ git clone https://github.com/PowerShellMafia/PowerSploit.git
 cd ~/tools
 echo "[$datetime] - done"
 
+echo "[$datetime] - installing LFISuite"
+git https://github.com/D35m0nd142/LFISuite.git
+cd ~/tools
+echo "[$datetime] - done"
+
 echo "[$datetime] - installing ADAPE"
 git clone https://github.com/hausec/ADAPE-Script.git
 cd ~/tools
